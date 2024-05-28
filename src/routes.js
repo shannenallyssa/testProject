@@ -41,14 +41,14 @@ const dashboardRoutes = [
     component: DashboardPage,
     layout: "/admin",
   },
-  {
-    path: "/medicaid",
-    name: "Medicaid Claims Submission",
-    rtlName: "قائمة الجدول",
-    icon: MedicaidIcon,
-    component: Medicaid,
-    layout: "/admin",
-  },
+  // {
+  //   path: "/medicaid",
+  //   name: "Medicaid Claims Submission",
+  //   rtlName: "قائمة الجدول",
+  //   icon: MedicaidIcon,
+  //   component: Medicaid,
+  //   layout: "/admin",
+  // },
 ];
 
 export default dashboardRoutes;
